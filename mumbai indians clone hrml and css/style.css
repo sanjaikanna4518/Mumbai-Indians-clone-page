@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(5, 5, 233);
+    color: white;
+    padding: 10px;
+}
+h1,li{
+    display: inline;
+}
+ul{
+    display: inline-block;
+    margin-left: 60%;
+    padding: 10px;
+
+}
+li{
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+li:hover{
+    color: red;
+
+}
+h1{
+    color: white;
+    font-family: inherit;
+}
+input{
+    width: 60%;
+    padding: 15px;
+}
+.search-box{
+    padding: 25px;
+    text-align: center;
+}
+.box1{
+    border-color: black;
+    border-radius: 1px;
+    border: solid;
+    display: inline-block;
+    width: 274px;
+}
+.box1 img{
+    height: 154px;
+}
+.product{
+    text-align: center;
+}
+.box1:hover{
+    background-color: rgb(7, 7, 255);
+    color: white;
+}
+.product{
+    margin: 50px;
+}
+.about{
+    text-align: center;
+}
+.about p{
+    padding: 20px;
+}
+
+.contact{
+    text-align: center;
+}
+
+.contact h4{
+    padding-top: 40px;
+}
+.about h2{
+    display: inline;
+    background-color: rgb(9, 9, 253);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.contact h2{
+    display: inline;
+    background-color: rgb(9, 9, 253);
+    color: aliceblue;
+    border-radius: 5px;
+}
+body{
+    background-image: url(images/outputmi.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 400px;
+    background-size: auto;
+    background-position-x:center;
+    
+}
+
+
